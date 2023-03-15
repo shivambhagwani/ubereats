@@ -7,7 +7,7 @@ import Button from 'react-bootstrap/Button'
 
 function LandingPageNav() {
   return (
-    <Navbar bg="dark" variant="dark" fixed='top'>
+    <Navbar bg="dark" variant="dark" sticky = 'top'>
         <Container>
           <Navbar.Brand href="#home" style={{fontWeight:'bold', fontSize:"30px"}}>Uber<span style={{"color" : "green"}}> Eats</span></Navbar.Brand>
           <Nav className="ms-x">
