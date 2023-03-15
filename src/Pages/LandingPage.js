@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import LandingPageCarousel from '../Components/LandingPageCarousel'
 import LandingPageNav from '../Components/LandingPageNav'
-import LandingPagePincodeForm from '../Components/LandingPagePincodeForm'
+import LoginPagePincodeClass from '../Components/LoginPagePincodeClass'
 
 
 export default class LandingPage extends Component {
@@ -10,7 +10,8 @@ export default class LandingPage extends Component {
       <div>
         <LandingPageNav/>
         <LandingPageCarousel/>
-        <LandingPagePincodeForm/>
+        {/* <LandingPagePincodeForm/> */}
+        <LoginPagePincodeClass/>
       </div>
     )
   }
