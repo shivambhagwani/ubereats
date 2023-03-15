@@ -21,7 +21,8 @@ export default class LoginPagePincodeClass extends Component {
             placeholder='Pincode'
             type="text"
             name="pincode"
-            className='form-control-lg'
+            className='form-control'
+            style={{width:"45%"}}
             value={this.state.pincode}
             onChange={this.handleChange}
          />
@@ -37,7 +38,7 @@ export default class LoginPagePincodeClass extends Component {
        </form>
 
        <div>
-        Or <a href='#home' style={{textDecoration:"none", color:"red"}}>LogIn</a> to see your saved addresses...
+        Or <a href='/login' style={{textDecoration:"none", color:"red"}}>LogIn</a> to see your saved addresses...
        </div>
 
         </div>
